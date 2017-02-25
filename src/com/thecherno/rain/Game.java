@@ -1,4 +1,4 @@
-// 11 yapilacak
+// 13 yapilacak
 
 package com.thecherno.rain;
 
@@ -17,6 +17,7 @@ import com.thecherno.rain.graphics.Screen;
 public class Game extends Canvas implements Runnable {
 	private static final long serialVersionUID = 1L;
 	public static int width = 300;
+//	height aslinda = width / 16*9 ama bir ara 168 yapti geri de donecek galiba
 	public static int height = 168;
 	public static int scale = 3;
 	
